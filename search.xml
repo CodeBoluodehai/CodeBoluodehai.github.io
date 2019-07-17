@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[My first blog——Markdown语法（基础篇）]]></title>
+    <url>%2F2019%2F07%2F17%2FMarkdown%2F</url>
+    <content type="text"><![CDATA[MK语法总结（Markdown语法笔记） 所有符号均为英文输入法状态下有效 基本操作 如上引用：大于号+空格 有序无序列表 减号+空格就是一个无序列表 有序列表，数字+英文句号+空格 百度超链接跳转,方括号+圆括号。方括号是跳转链接，圆括号是跳转的网址百度 插入图片：感叹号+中括号+小括号。中括号中是图片的描述实际不显示，小括号中是图片地址。 文字加粗：在要加粗文字外加两个星号，shift+8。 斜体：文字外面加一个星号。 引用本地图片的程序源码 引用图片的源代码 如上图，插入图片的MD语法。 引用本地图片： 本地图片保存在theme/next/source/images，这个路径下，所以如上图，图片路径以/images/开头，然后加上（图片名.后缀名）。 运用HTML语言的操作 设置字体、颜色和字号需运用HTML语言你好 居中： center标签 居左或居右： 你好 你好 图片居左居右同上。]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <url>%2F2019%2F07%2F12%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. 看这里看这里,Hello Hexo!Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+  </entry>
+</search>
