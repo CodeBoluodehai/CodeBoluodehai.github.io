@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[SQL注入问题]]></title>
+    <url>%2F2020%2F08%2F14%2FSQL%E6%B3%A8%E5%85%A5%2F</url>
+    <content type="text"><![CDATA[#SQL注入问题 通过在Web表单中输入（恶意）SQL语句得到一个存在安全漏洞的网站上的数据库，而不是按照设计者意图去执行SQL语句。当执行的sql为： select * from user where username = “admin”or “a”=“a”sql语句恒成立，参数admin毫无意义。 防止SQL注入方式： 预编译语句：如，select * from user where username = ？，sql语句语义不会发生改变，sql语句中变量用？表示，即使传递参数时为“admin or ‘a’= ‘a’”，也会把这整体当做一个字符创去查询。 Mybatis 框架中的mapper 方式中的 # 也能很大程度的防止sql注入（$无法防止sql注入）。]]></content>
+      <categories>
+        <category>数据库</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[个人logo]]></title>
     <url>%2F2019%2F07%2F21%2Flogo%2F</url>
     <content type="text"><![CDATA[个人logologo简介 我设计的个人logo为一个圆形，其中1/3的上半部分为黑色，2/3的下半部分为黄色，整个头像为一个抽象的人头像的一个概念，象征着一个有着黑头发黄皮肤的中国人的形象，简而言之，就是我自己。 logo设计灵感 我的个人网站logo灵感来自一直德甲的足球队——多特蒙德，外号是大黄蜂。再我上高中的时候，那时多特阵容豪华实力强劲，有着罗伊斯，莱万多夫斯基等众多球星，并且在2013年欧冠决赛与同为德甲的球队拜仁慕尼黑相遇。 当时还是一名高二学生的我被“大黄蜂”那黄黑的配色惊艳到了，再加之对内有两位高颜值且踢球技术超棒的帅锋，罗伊斯和莱万多夫斯基，于是我立马成了多特球迷。 可以说我也是通过一支球队培养了对黄色和黑色这样一种颜色组合的喜爱，对于我设计自己的logo有着许多影响。 logo设计风格 我本人是一个实用主义者，不喜欢太复杂的东西，这也给我设计自己的logo指明了方向：用最少的笔画表达我的个性，就是这样。]]></content>
