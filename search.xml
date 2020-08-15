@@ -40,6 +40,32 @@
       </tags>
   </entry>
   <entry>
+    <title><![CDATA[Collection集合笔记]]></title>
+    <url>%2F2020%2F08%2F14%2FCollection%E9%9B%86%E5%90%88%E7%AC%94%E8%AE%B0%2F</url>
+    <content type="text"><![CDATA[Collection集合笔记]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Properties集合]]></title>
+    <url>%2F2020%2F08%2F14%2FProperties%E9%9B%86%E5%90%88%2F</url>
+    <content type="text"><![CDATA[Properties集合]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[SQL注入问题]]></title>
     <url>%2F2020%2F08%2F14%2FSQL%E6%B3%A8%E5%85%A5%2F</url>
     <content type="text"><![CDATA[SQL注入问题 通过在Web表单中输入（恶意）SQL语句得到一个存在安全漏洞的网站上的数据库，而不是按照设计者意图去执行SQL语句。当执行的sql为：select * from user where username = “admin” or “a”=“a”sql语句恒成立，参数admin毫无意义。 防止SQL注入方式： 预编译语句：如，select * from user where username = ？，sql语句语义不会发生改变，sql语句中变量用？表示，即使传递参数时为“admin or ‘a’= ‘a’”，也会把这整体当做一个字符创去查询。 Mybatis 框架中的mapper 方式中的 # 也能很大程度的防止sql注入（$无法防止sql注入）。]]></content>
