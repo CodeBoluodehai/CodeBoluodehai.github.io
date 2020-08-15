@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Properties集合]]></title>
+    <url>%2F2020%2F08%2F15%2FProperties%E9%9B%86%E5%90%88%2F</url>
+    <content type="text"><![CDATA[Properties集合]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Collection集合笔记]]></title>
+    <url>%2F2020%2F08%2F15%2FCollection%E9%9B%86%E5%90%88%E7%AC%94%E8%AE%B0%2F</url>
+    <content type="text"><![CDATA[Collection集合笔记]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[MySQL数据库中的四种隔离]]></title>
     <url>%2F2020%2F08%2F15%2FM%E6%9C%89SQL%E4%B8%AD%E7%9A%84%E5%9B%9B%E7%A7%8D%E9%9A%94%E7%A6%BB%2F</url>
     <content type="text"><![CDATA[MySQL数据库中的四种隔离如下图： 读未提交（READ UNCOMMITTED）：未提交读隔离级别也叫读脏，就是事务可以读取其它事务未提交的数据。 读已提交（READ COMMITTED）：在其它数据库系统比如SQL Server默认的隔离级别就是提交读，已提交读隔离级别就是在事务未提交之前所做的修改其它事务是不可见的。 可重复读（REPEATABLE READ）：保证同一个事务中的多次相同的查询的结果是一致的，比如一个事务一开始查询了一条记录然后过了几秒钟又执行了相同的查询，保证两次查询的结果是相同的，可重复读也是mysql的默认隔离级别。 可串行化（SERIALIZABLE）：可串行化就是保证读取的范围内没有新的数据插入，比如事务第一次查询得到某个范围的数据，第二次查询也同样得到了相同范围的数据，中间没有新的数据插入到该范围中。]]></content>
@@ -32,32 +58,6 @@
     <content type="text"><![CDATA[MyISAM和InnoDB存储引擎MyISAM存储引擎 MyISAM 是 MySQL 官方提供默认的存储引擎，其特点是不支持事务、表锁和全文索引，对于一些 OLAP（联机分析处理）系统，操作速度快。 每个MyISAM在磁盘上存储成三个文件。文件名都和表名相同，扩展名分别是.frm（存储表定义）、.MYD (MYData，存储数据)、.MYI (MYIndex，存储索引)。这里特别要注意的是MyISAM不缓存数据文件，只缓存索引文件。 InnoDB存储引擎 InnoDB 存储引擎支持事务，主要面向 OLTP（联机事务处理过程）方面的应用，其特点是行锁设置、支持外键，并支持类似于Oracle的非锁定读，即默认情况下读不产生锁。InnoDB将数据放在一个逻辑表空间中（类似Oracle）。 InnoDB通过多版本并发控制来获得高并发性，实现了ANSI标准的4种隔离级别，默认为epeatable，使用一种被称为next-key locking的策略避免幻读。 对于表中数据的存储，InnoDB采用类似Oracle索引组织表Clustered的方式进行存储。InnoDB 存储引擎提供了具有提交、回滚和崩溃恢复能力的事务安全。但是对比Myisam的存储引擎，InnoDB 写的处理效率差一些并且会占用更多的磁盘空间以保留数据和索引。]]></content>
       <categories>
         <category>数据库</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>技术</tag>
-        <tag>学习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Collection集合笔记]]></title>
-    <url>%2F2020%2F08%2F14%2FCollection%E9%9B%86%E5%90%88%E7%AC%94%E8%AE%B0%2F</url>
-    <content type="text"><![CDATA[Collection集合笔记]]></content>
-      <categories>
-        <category>Java</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>技术</tag>
-        <tag>学习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Properties集合]]></title>
-    <url>%2F2020%2F08%2F14%2FProperties%E9%9B%86%E5%90%88%2F</url>
-    <content type="text"><![CDATA[Properties集合]]></content>
-      <categories>
-        <category>Java</category>
       </categories>
       <tags>
         <tag>笔记</tag>
