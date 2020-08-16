@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[SQL语句通用语法]]></title>
     <url>%2F2020%2F08%2F16%2FSQL%E8%AF%AD%E5%8F%A5%E9%80%9A%E7%94%A8%E8%AF%AD%E6%B3%95%2F</url>
-    <content type="text"><![CDATA[SQL语句通用语法![SQL语句通用语法(/images/SQL语句通用语法.png)]]></content>
+    <content type="text"><![CDATA[SQL语句通用语法]]></content>
       <categories>
         <category>数据库</category>
       </categories>
@@ -16,7 +16,7 @@
   <entry>
     <title><![CDATA[为什么要使用PreparedStatement]]></title>
     <url>%2F2020%2F08%2F16%2F%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E4%BD%BF%E7%94%A8PreparedStatement%2F</url>
-    <content type="text"><![CDATA[为什么要使用PreparedStatement]]></content>
+    <content type="text"><![CDATA[为什么要使用PreparedStatement PreparedStatement接口继承Statement， PreparedStatement 实例包含已编译的 SQL 语句，所以其执行速度要快于 Statement 对象。 作 为 Statement 的 子 类 ， PreparedStatement 继承了 Statement 的 所 有 功 能 。 三 种 方法 execute、 executeQuery 和 executeUpdate 已被更改以使之不再需要参数 在 JDBC应用中,在任何时候都不要使用Statement，原因如下：一、代码的可读性和可维护性.Statement需要不断地拼接，而PreparedStatement不会。二、PreparedStatement尽最大可能提高性能.DB有缓存机制，相同的预编译语句再次被调用不会再次需要编译。三、最重要的一点是极大地提高了安全性.Statement 容易被 SQL 注入，而 PreparedStatementc 传入的内容不会和sql语句发生任何匹配关系。]]></content>
       <categories>
         <category>Java</category>
       </categories>

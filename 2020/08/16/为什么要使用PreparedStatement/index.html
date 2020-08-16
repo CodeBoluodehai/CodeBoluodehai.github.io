@@ -86,18 +86,18 @@
 
 
 
-<meta name="description" content="为什么要使用PreparedStatement">
+<meta name="description" content="为什么要使用PreparedStatement PreparedStatement接口继承Statement， PreparedStatement 实例包含已编译的 SQL 语句，所以其执行速度要快于 Statement 对象。   作 为 Statement 的 子 类 ， PreparedStatement 继承了 Statement 的 所 有 功 能 。 三 种 方法  execute、">
 <meta name="keywords" content="笔记,技术,学习,JDBC">
 <meta property="og:type" content="article">
 <meta property="og:title" content="为什么要使用PreparedStatement">
 <meta property="og:url" content="https://CodeBoluodehai.github.io/2020/08/16/为什么要使用PreparedStatement/index.html">
 <meta property="og:site_name" content="波罗D海">
-<meta property="og:description" content="为什么要使用PreparedStatement">
+<meta property="og:description" content="为什么要使用PreparedStatement PreparedStatement接口继承Statement， PreparedStatement 实例包含已编译的 SQL 语句，所以其执行速度要快于 Statement 对象。   作 为 Statement 的 子 类 ， PreparedStatement 继承了 Statement 的 所 有 功 能 。 三 种 方法  execute、">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2020-08-16T05:55:17.600Z">
+<meta property="og:updated_time" content="2020-08-16T06:00:35.367Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="为什么要使用PreparedStatement">
-<meta name="twitter:description" content="为什么要使用PreparedStatement">
+<meta name="twitter:description" content="为什么要使用PreparedStatement PreparedStatement接口继承Statement， PreparedStatement 实例包含已编译的 SQL 语句，所以其执行速度要快于 Statement 对象。   作 为 Statement 的 子 类 ， PreparedStatement 继承了 Statement 的 所 有 功 能 。 三 种 方法  execute、">
 
 
 
@@ -391,7 +391,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  7
+                  201
                 </span>
               
 
@@ -428,7 +428,12 @@
       
 
       
-        <h1 id="为什么要使用PreparedStatement"><a href="#为什么要使用PreparedStatement" class="headerlink" title="为什么要使用PreparedStatement"></a>为什么要使用PreparedStatement</h1>
+        <h1 id="为什么要使用PreparedStatement"><a href="#为什么要使用PreparedStatement" class="headerlink" title="为什么要使用PreparedStatement"></a>为什么要使用PreparedStatement</h1><ol>
+<li>PreparedStatement接口继承Statement， PreparedStatement 实例包含已编译的 SQL 语句，所以其执行速度要快于 Statement 对象。  </li>
+<li>作 为 Statement 的 子 类 ， PreparedStatement 继承了 Statement 的 所 有 功 能 。 三 种 方<br>法  execute、 executeQuery 和 executeUpdate 已被更改以使之不再需要参数  </li>
+<li>在 JDBC应用中,在任何时候都不要使用Statement，原因如下：<br>一、代码的可读性和可维护性.Statement需要不断地拼接，而PreparedStatement不会。<br>二、PreparedStatement尽最大可能提高性能.DB有缓存机制，相同的预编译语句再次被调用不会再次需要编译。<br>三、最重要的一点是极大地提高了安全性.Statement 容易被 SQL 注入，而 PreparedStatementc 传入的内容不会和sql语句发生任何匹配关系。</li>
+</ol>
+
       
     </div>
     
