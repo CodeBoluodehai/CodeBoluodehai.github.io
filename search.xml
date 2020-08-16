@@ -1,6 +1,216 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[线程池]]></title>
+    <url>%2F2020%2F08%2F16%2F%E7%BA%BF%E7%A8%8B%E6%B1%A0%2F</url>
+    <content type="text"><![CDATA[线程池线程池的概念及优点 线程池相关API 线程池优点 创建线程池代码实现 面试问题：创建多线程有几种方式？ 4种 extends Thread类； implements Runnable； implements Callable； 线程池。]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+        <tag>多线程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Callable接口]]></title>
+    <url>%2F2020%2F08%2F16%2FCallable%E6%8E%A5%E5%8F%A3%2F</url>
+    <content type="text"><![CDATA[Callable接口]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+        <tag>多线程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[sleep方法与wait方法的异同]]></title>
+    <url>%2F2020%2F08%2F16%2Fsleep%E6%96%B9%E6%B3%95%E4%B8%8Ewait%E6%96%B9%E6%B3%95%E7%9A%84%E5%BC%82%E5%90%8C%2F</url>
+    <content type="text"><![CDATA[sleep方法与wait方法的异同相同点 一旦执行方法，都可以使得当前线程进入阻塞状态。 不同点 两个方法声明的位置不同：Thread类中声明sleep（），Object类中声明wait（）； 调用的要求不同：sleep（）可以在任何需要的场景下调用，wait（）必须在同步代码块或者同步方法中调用； 关于是否释放同步监视器：如果两个方法都在同步代码块或者同步方法中，sleep（）方法不释放锁， wait（）方法释放锁。]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+        <tag>多线程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[线程通信的方法]]></title>
+    <url>%2F2020%2F08%2F16%2F%E7%BA%BF%E7%A8%8B%E9%80%9A%E4%BF%A1%E7%9A%84%E6%96%B9%E6%B3%95%2F</url>
+    <content type="text"><![CDATA[线程通信的方法]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+        <tag>多线程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Lock]]></title>
+    <url>%2F2020%2F08%2F16%2FLock%2F</url>
+    <content type="text"><![CDATA[Lock]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+        <tag>多线程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[线程安全的懒汉式]]></title>
+    <url>%2F2020%2F08%2F16%2F%E7%BA%BF%E7%A8%8B%E5%AE%89%E5%85%A8%E7%9A%84%E6%87%92%E6%B1%89%E5%BC%8F%2F</url>
+    <content type="text"><![CDATA[线程安全的懒汉式]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+        <tag>多线程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[同步代码块与同步方法]]></title>
+    <url>%2F2020%2F08%2F16%2F%E5%90%8C%E6%AD%A5%E4%BB%A3%E7%A0%81%E5%9D%97%E4%B8%8E%E5%90%8C%E6%AD%A5%E6%96%B9%E6%B3%95%2F</url>
+    <content type="text"><![CDATA[同步代码块与同步方法 未解决线程安全问题，有两种方法，分别是同步代码块与同步方法。 同步代码块Runnable实现方法 同步代码块Runnable实现方法代码实现 同步代码块extends代码实现方法 同步方法总结 同步方法仍然涉及到同步监视器，只是不需要我们显式声明； 非静态的同步方法，同步监视器是：this静态的同步方法，同步监视器是：当前类本身。]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+        <tag>多线程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[线程的安全问题]]></title>
+    <url>%2F2020%2F08%2F16%2F%E7%BA%BF%E7%A8%8B%E7%9A%84%E5%AE%89%E5%85%A8%E9%97%AE%E9%A2%98%2F</url>
+    <content type="text"><![CDATA[线程的安全问题]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+        <tag>多线程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[线程的生命周期]]></title>
+    <url>%2F2020%2F08%2F16%2F%E7%BA%BF%E7%A8%8B%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%2F</url>
+    <content type="text"><![CDATA[线程的生命周期]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+        <tag>多线程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[程序、进程、线程概念]]></title>
+    <url>%2F2020%2F08%2F16%2F%E7%A8%8B%E5%BA%8F%E8%BF%9B%E7%A8%8B%E7%BA%BF%E7%A8%8B%E6%A6%82%E5%BF%B5%2F</url>
+    <content type="text"><![CDATA[程序、进程、线程概念]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+        <tag>多线程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[线程创建方式比较]]></title>
+    <url>%2F2020%2F08%2F16%2F%E7%BA%BF%E7%A8%8B%E5%88%9B%E5%BB%BA%E6%96%B9%E5%BC%8F%E6%AF%94%E8%BE%83%2F</url>
+    <content type="text"><![CDATA[线程创建方式比较]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+        <tag>多线程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[实现Runnable接口]]></title>
+    <url>%2F2020%2F08%2F16%2F%E5%AE%9E%E7%8E%B0Runnable%E6%8E%A5%E5%8F%A3%2F</url>
+    <content type="text"><![CDATA[实现Runnable接口]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+        <tag>多线程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[多线程优先级设置]]></title>
+    <url>%2F2020%2F08%2F16%2F%E5%A4%9A%E7%BA%BF%E7%A8%8B%E4%BC%98%E5%85%88%E7%BA%A7%E8%AE%BE%E7%BD%AE%2F</url>
+    <content type="text"><![CDATA[多线程优先级设置]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+        <tag>多线程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[多线程常用方法]]></title>
+    <url>%2F2020%2F08%2F16%2F%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%B8%B8%E7%94%A8%E6%96%B9%E6%B3%95%2F</url>
+    <content type="text"><![CDATA[多线程常用方法]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+        <tag>多线程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[主线程]]></title>
+    <url>%2F2020%2F08%2F16%2F%E4%B8%BB%E7%BA%BF%E7%A8%8Bmd%2F</url>
+    <content type="text"><![CDATA[主线程]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+        <tag>多线程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[SQL语句通用语法]]></title>
     <url>%2F2020%2F08%2F16%2FSQL%E8%AF%AD%E5%8F%A5%E9%80%9A%E7%94%A8%E8%AF%AD%E6%B3%95%2F</url>
     <content type="text"><![CDATA[SQL语句通用语法]]></content>
