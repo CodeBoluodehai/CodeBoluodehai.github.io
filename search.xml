@@ -1,6 +1,102 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[SQL语句通用语法]]></title>
+    <url>%2F2020%2F08%2F16%2FSQL%E8%AF%AD%E5%8F%A5%E9%80%9A%E7%94%A8%E8%AF%AD%E6%B3%95%2F</url>
+    <content type="text"><![CDATA[SQL语句通用语法![SQL语句通用语法(/images/SQL语句通用语法.png)]]></content>
+      <categories>
+        <category>数据库</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[为什么要使用PreparedStatement]]></title>
+    <url>%2F2020%2F08%2F16%2F%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E4%BD%BF%E7%94%A8PreparedStatement%2F</url>
+    <content type="text"><![CDATA[为什么要使用PreparedStatement]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+        <tag>JDBC</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[原生jdbc操作数据库流程]]></title>
+    <url>%2F2020%2F08%2F16%2F%E5%8E%9F%E7%94%9Fjdbc%E6%93%8D%E4%BD%9C%E6%95%B0%E6%8D%AE%E5%BA%93%E6%B5%81%E7%A8%8B%2F</url>
+    <content type="text"><![CDATA[原生jdbc操作数据库流程 第一步：Class.forName()加载数据库连接驱动； 第二步：DriverManager.getConnection()获取数据连接对象; 第三步：根据SQL获取sql会话对象，有2种方式 Statement、PreparedStatement ; 第四步：执行SQL处理结果集，执行SQL前如果有参数值就设置参数值setXXX(); 第五步：关闭结果集、关闭会话、关闭连接。]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+        <tag>JDBC</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[JDBC概念]]></title>
+    <url>%2F2020%2F08%2F16%2FJDBC%E6%A6%82%E5%BF%B5%2F</url>
+    <content type="text"><![CDATA[JDBC概念]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+        <tag>JDBC</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[DB范式]]></title>
+    <url>%2F2020%2F08%2F16%2FDB%E8%8C%83%E5%BC%8F%2F</url>
+    <content type="text"><![CDATA[DB范式]]></content>
+      <categories>
+        <category>数据库</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[MySQL数据表的CRUD]]></title>
+    <url>%2F2020%2F08%2F16%2FMySQL%E6%95%B0%E6%8D%AE%E8%A1%A8%E7%9A%84CRUD%2F</url>
+    <content type="text"><![CDATA[MySQL数据表的CRUD 创建表 查询修改与删除表 增删改查表中数据]]></content>
+      <categories>
+        <category>数据库</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+        <tag>MySQL</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[MySQL数据类型]]></title>
+    <url>%2F2020%2F08%2F16%2FMySQL%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B%2F</url>
+    <content type="text"><![CDATA[MySQL数据类型]]></content>
+      <categories>
+        <category>数据库</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+        <tag>MySQL</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[堆排序（Java）]]></title>
     <url>%2F2020%2F08%2F16%2F%E5%A0%86%E6%8E%92%E5%BA%8F%EF%BC%88Java%EF%BC%89%2F</url>
     <content type="text"><![CDATA[堆排序（Java）上代码： 1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586import java.text.SimpleDateFormat;import java.util.Date;public class HeapSort &#123; public static void main(String[] args) &#123; //升序排列 //int[] arr = &#123;4,6,8,5,9&#125;; //创建80000个随机数 int[] arr = new int[8000000]; for (int i = 0; i &lt;8000000; i++) &#123; arr[i] = (int) (Math.random()*8000000);//生成一个[0,8000000）的数 &#125; //System.out.println(&quot;排序前：&quot;); //System.out.println(Arrays.toString(arr)); Date date1 = new Date(); SimpleDateFormat simpleDateFormat = new SimpleDateFormat(&quot;yyyy-MM-dd HH-mm-ss&quot;); String date1Str = simpleDateFormat.format(date1); System.out.println(&quot;排序前的时间是：&quot;+date1Str); long startMili=System.currentTimeMillis();// 当前时间对应的毫秒数 heapSort(arr); long endMili=System.currentTimeMillis(); //System.out.println(&quot;排序后：&quot;); //System.out.println(Arrays.toString(arr)); Date date2 = new Date(); String date2Str = simpleDateFormat.format(date2); System.out.println(&quot;排序后的时间是：&quot;+date2Str); double h = (endMili-startMili)/1000.0; System.out.println(&quot;总耗时为：&quot;+(endMili-startMili)+&quot;毫秒&quot;+&quot;=&quot;+ h + &quot;秒&quot;); &#125; public static void heapSort(int[] arr)&#123; int temp = 0; System.out.println(&quot;堆排序！&quot;); 分步完成 adjustHeap(arr, 1, arr.length); System.out.println(&quot;NO.1:&quot;+ Arrays.toString(arr)); adjustHeap(arr, 0 , arr.length); System.out.println(&quot;NO.2:&quot; + Arrays.toString(arr)); //一次完成 for (int i = arr.length / 2 - 1; i &gt;= 0 ; i--) &#123; adjustHeap(arr, i, arr.length); &#125; for (int j = arr.length - 1; j &gt; 0 ; j--) &#123; //交换 temp = arr[j]; arr[j] = arr[0]; arr[0] = temp; adjustHeap(arr, 0, j); &#125; //System.out.println(&quot;数组=&quot; + Arrays.toString(arr)); &#125; /** * 功能：完成将以i对应的非叶子节点的树调整为大顶堆 * 举例：&#123;4,6,8,5,9&#125; =&gt; i=1 =&gt;adjustHeap =&gt; &#123;4,9,8,5,6&#125; * @param arr 待调整数组 * @param i 非叶子节点在数组中的索引 * @param length 对多少个元素继续调整，length在减少 */ public static void adjustHeap(int[] arr,int i,int length)&#123; int temp = arr[i]; //取出当前元素，保存在临时变量 //开始调整 for (int k = i*2+1; k &lt;length ; k=k*2+1) &#123; if(k+1 &lt; length &amp;&amp; arr[k] &lt;a rr[k+1] )&#123; //左子节点小于右子节点 k++; //k指向右子节点 &#125; if(arr[k] &gt; temp)&#123; //如果子节点大于结点 arr[i] = arr[k]; //把较大的值赋值给当前结点 i = k; &#125; else&#123; break; &#125; &#125; //当for循环结束，我们已经将以i为父结点的树的最大值放在最顶 arr[i] = temp;//将temp放到最后调整的位置 &#125;&#125;]]></content>
@@ -150,11 +246,12 @@
         <tag>笔记</tag>
         <tag>技术</tag>
         <tag>学习</tag>
+        <tag>集合</tag>
       </tags>
   </entry>
   <entry>
     <title><![CDATA[MySQL数据库中的四种隔离]]></title>
-    <url>%2F2020%2F08%2F15%2FM%E6%9C%89SQL%E4%B8%AD%E7%9A%84%E5%9B%9B%E7%A7%8D%E9%9A%94%E7%A6%BB%2F</url>
+    <url>%2F2020%2F08%2F15%2FMySQL%E4%B8%AD%E7%9A%84%E5%9B%9B%E7%A7%8D%E9%9A%94%E7%A6%BB%2F</url>
     <content type="text"><![CDATA[MySQL数据库中的四种隔离如下图： 读未提交（READ UNCOMMITTED）：未提交读隔离级别也叫读脏，就是事务可以读取其它事务未提交的数据。 读已提交（READ COMMITTED）：在其它数据库系统比如SQL Server默认的隔离级别就是提交读，已提交读隔离级别就是在事务未提交之前所做的修改其它事务是不可见的。 可重复读（REPEATABLE READ）：保证同一个事务中的多次相同的查询的结果是一致的，比如一个事务一开始查询了一条记录然后过了几秒钟又执行了相同的查询，保证两次查询的结果是相同的，可重复读也是mysql的默认隔离级别。 可串行化（SERIALIZABLE）：可串行化就是保证读取的范围内没有新的数据插入，比如事务第一次查询得到某个范围的数据，第二次查询也同样得到了相同范围的数据，中间没有新的数据插入到该范围中。]]></content>
       <categories>
         <category>数据库</category>
