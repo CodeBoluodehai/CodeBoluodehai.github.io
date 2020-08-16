@@ -86,18 +86,18 @@
 
 
 
-<meta name="description" content="堆排序（Java）上代码：‘’’package main.method.heapsort; import java.text.SimpleDateFormat;import java.util.Date; /**  @author Boluodehai  @date 2020/7/22 - 10:12  /public class HeapSort {  public static void ma">
+<meta name="description" content="堆排序（Java）上代码：‘package main.method.heapsort; import java.text.SimpleDateFormat;import java.util.Date; /**  @author Boluodehai  @date 2020/7/22 - 10:12  /public class HeapSort {  public static void main">
 <meta name="keywords" content="笔记,技术,学习">
 <meta property="og:type" content="article">
 <meta property="og:title" content="堆排序（Java）">
 <meta property="og:url" content="https://CodeBoluodehai.github.io/2020/08/16/堆排序（Java）/index.html">
 <meta property="og:site_name" content="波罗D海">
-<meta property="og:description" content="堆排序（Java）上代码：‘’’package main.method.heapsort; import java.text.SimpleDateFormat;import java.util.Date; /**  @author Boluodehai  @date 2020/7/22 - 10:12  /public class HeapSort {  public static void ma">
+<meta property="og:description" content="堆排序（Java）上代码：‘package main.method.heapsort; import java.text.SimpleDateFormat;import java.util.Date; /**  @author Boluodehai  @date 2020/7/22 - 10:12  /public class HeapSort {  public static void main">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2020-08-16T05:06:39.858Z">
+<meta property="og:updated_time" content="2020-08-16T05:12:42.978Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="堆排序（Java）">
-<meta name="twitter:description" content="堆排序（Java）上代码：‘’’package main.method.heapsort; import java.text.SimpleDateFormat;import java.util.Date; /**  @author Boluodehai  @date 2020/7/22 - 10:12  /public class HeapSort {  public static void ma">
+<meta name="twitter:description" content="堆排序（Java）上代码：‘package main.method.heapsort; import java.text.SimpleDateFormat;import java.util.Date; /**  @author Boluodehai  @date 2020/7/22 - 10:12  /public class HeapSort {  public static void main">
 
 
 
@@ -402,7 +402,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  543
+                  544
                 </span>
               
 
@@ -439,7 +439,7 @@
       
 
       
-        <h1 id="堆排序（Java）"><a href="#堆排序（Java）" class="headerlink" title="堆排序（Java）"></a>堆排序（Java）</h1><p>上代码：<br>‘’’package main.method.heapsort;</p>
+        <h1 id="堆排序（Java）"><a href="#堆排序（Java）" class="headerlink" title="堆排序（Java）"></a>堆排序（Java）</h1><p>上代码：<br>‘<br>package main.method.heapsort;</p>
 <p>import java.text.SimpleDateFormat;<br>import java.util.Date;</p>
 <p>/**</p>
 <ul>
@@ -481,7 +481,7 @@ long endMili=System.currentTimeMillis();
 
 public static void heapSort(int[] arr){
     int temp = 0;
-    System.out.println(&quot;堆排序！&quot;);</code></pre><p>//        //分步完成<br>////        adjustHeap(arr, 1, arr.length);<br>////        System.out.println(“NO.1:”+ Arrays.toString(arr));<br>////<br>////        adjustHeap(arr, 0 , arr.length);<br>////        System.out.println(“NO.2:” + Arrays.toString(arr));</p>
+    System.out.println(&quot;堆排序！&quot;);</code></pre><p>  //        //分步完成<br>  ////        adjustHeap(arr, 1, arr.length);<br>  ////        System.out.println(“NO.1:”+ Arrays.toString(arr));<br>  ////<br> ////        adjustHeap(arr, 0 , arr.length);<br> ////        System.out.println(“NO.2:” + Arrays.toString(arr));</p>
 <pre><code>    //一次完成
     for (int i = arr.length / 2 - 1; i &gt;= 0 ; i--) {
         adjustHeap(arr, i, arr.length);
@@ -496,9 +496,7 @@ public static void heapSort(int[] arr){
     }
 
     //System.out.println(&quot;数组=&quot; + Arrays.toString(arr));
-
 }
-
 
 /**
  * 功能：完成将以i对应的非叶子节点的树调整为大顶堆
@@ -508,11 +506,10 @@ public static void heapSort(int[] arr){
  * @param length 对多少个元素继续调整，length在减少
  */
 public static void adjustHeap(int[] arr,int i,int length){
-
     int temp = arr[i]; //取出当前元素，保存在临时变量
     //开始调整
     for (int k = i*2+1; k &lt;length ; k=k*2+1) {
-        if(k+1 &lt; length &amp;&amp; arr[k]&lt;arr[k+1] ){  //左子节点小于右子节点
+        if(k+1 &lt; length &amp;&amp; arr[k] &lt;a rr[k+1] ){  //左子节点小于右子节点
             k++; //k指向右子节点
         }
         if(arr[k] &gt; temp){ //如果子节点大于结点
@@ -523,7 +520,7 @@ public static void adjustHeap(int[] arr,int i,int length){
         }
     } //当for循环结束，我们已经将以i为父结点的树的最大值放在最顶
     arr[i] = temp;//将temp放到最后调整的位置
-}</code></pre><p>}’’’</p>
+}</code></pre><p>}<br>‘</p>
 
       
     </div>
