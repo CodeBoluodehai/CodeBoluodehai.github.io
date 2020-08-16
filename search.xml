@@ -1,6 +1,202 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Map实现类的结构]]></title>
+    <url>%2F2020%2F08%2F16%2FMap%E5%AE%9E%E7%8E%B0%E7%B1%BB%E7%9A%84%E7%BB%93%E6%9E%84%2F</url>
+    <content type="text"><![CDATA[Map实现类的结构]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+        <tag>集合</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[计算字符串中字符出现的次数]]></title>
+    <url>%2F2020%2F08%2F16%2F%E8%AE%A1%E7%AE%97%E5%AD%97%E7%AC%A6%E4%B8%B2%E4%B8%AD%E5%AD%97%E7%AC%A6%E5%87%BA%E7%8E%B0%E7%9A%84%E6%AC%A1%E6%95%B0%2F</url>
+    <content type="text"><![CDATA[计算字符串中字符出现的次数]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+        <tag>集合</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[HashTable集合]]></title>
+    <url>%2F2020%2F08%2F16%2FHashTable%E9%9B%86%E5%90%88%2F</url>
+    <content type="text"><![CDATA[HashTable集合]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+        <tag>集合</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[entrySet（）遍历Map集合]]></title>
+    <url>%2F2020%2F08%2F16%2FentrySet%EF%BC%88%EF%BC%89%E9%81%8D%E5%8E%86Map%E9%9B%86%E5%90%88%2F</url>
+    <content type="text"><![CDATA[entrySet（）遍历Map集合]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+        <tag>集合</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Entry键值对对象]]></title>
+    <url>%2F2020%2F08%2F16%2FEntry%E9%94%AE%E5%80%BC%E5%AF%B9%E5%AF%B9%E8%B1%A1%2F</url>
+    <content type="text"><![CDATA[Entry键值对对象]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+        <tag>集合</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Map集合的遍历键值]]></title>
+    <url>%2F2020%2F08%2F16%2FMap%E9%9B%86%E5%90%88%E7%9A%84%E9%81%8D%E5%8E%86%E9%94%AE%E5%80%BC%2F</url>
+    <content type="text"><![CDATA[Map集合的遍历键值]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+        <tag>集合</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Map的put方法]]></title>
+    <url>%2F2020%2F08%2F16%2FMap%E7%9A%84put%E6%96%B9%E6%B3%95%2F</url>
+    <content type="text"><![CDATA[Map的put方法]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+        <tag>集合</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Map集合]]></title>
+    <url>%2F2020%2F08%2F16%2FMap%E9%9B%86%E5%90%88%2F</url>
+    <content type="text"><![CDATA[Map集合]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+        <tag>集合</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Collections的sort方法排序]]></title>
+    <url>%2F2020%2F08%2F16%2FCollections%E7%9A%84sort%E6%96%B9%E6%B3%95%E6%8E%92%E5%BA%8F%2F</url>
+    <content type="text"><![CDATA[Collections的sort方法排序]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+        <tag>集合</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[LinkedHashSet集合]]></title>
+    <url>%2F2020%2F08%2F16%2FLinkedHashSet%E9%9B%86%E5%90%88%2F</url>
+    <content type="text"><![CDATA[LinkedHashSet集合]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+        <tag>集合</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[HashSet存储不重复元素的原理]]></title>
+    <url>%2F2020%2F08%2F16%2FHashSet%E5%AD%98%E5%82%A8%E4%B8%8D%E9%87%8D%E5%A4%8D%E5%85%83%E7%B4%A0%E7%9A%84%E5%8E%9F%E7%90%86%2F</url>
+    <content type="text"><![CDATA[HashSet存储不重复元素的原理]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+        <tag>集合</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[哈希表hashTable]]></title>
+    <url>%2F2020%2F08%2F16%2F%E5%93%88%E5%B8%8C%E8%A1%A8hashTable%2F</url>
+    <content type="text"><![CDATA[哈希表hashTable]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+        <tag>集合</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[哈希值hashCode]]></title>
+    <url>%2F2020%2F08%2F16%2F%E5%93%88%E5%B8%8C%E5%80%BChashCode%2F</url>
+    <content type="text"><![CDATA[哈希值hashCode]]></content>
+      <categories>
+        <category>Java</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+        <tag>集合</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[设计模式]]></title>
+    <url>%2F2020%2F08%2F16%2F%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%2F</url>
+    <content type="text"><![CDATA[设计模式分类 创建型模式，共5种：工厂方法模式、抽象工厂模式、单例模式、建造者模式、原型模式。 结构型模式，共7种：适配器模式、装饰器模式、代理模式、外观模式、桥接模式、组合模式、享元模式。 行为型模式，共11种：策略模式、模板方法模式、观察者模式、迭代子模式、责任链模式、命令模式、备忘录模式、状态模式、访问者模式、中介者模式、解释器模式。 1、工厂方法模式 又被称为多态工厂模式。工厂方法模式的意义是定义一个创建产品对象的工厂接口，将实际创建工作推迟到子类当中。核心工厂类不再负责产品的创建，这样核心类称为一个抽象工厂角色，仅负责具体工厂子类必须实现的接口，这样进一步抽象化的好处是使得工厂方法模式可以使系统在不修改具体工厂角色的情况下引进新的产品。 2、抽象工厂模式 可以向客户端提供一个接口，使得客户端在不必指定产品的具体类型的情况下，能够创建多个产品族的产品对象。 3、单例模式 使用单例模式，可以保证为一个雷只生成唯一的实例对象。也就是说，在整个程序空间中，该类只存在唯一一个实例对象。GoF对单例模式的定义是：保证一个类，只有一个势力存在，同时能提供对该实例加以访问的全局访问方法。 应用场景：①多个线程之间，比如servlet环境，共享同一个资源或者操作同一个对象。②在整个程序空间使用全局变量，共享资源 ③大规模系统中，为了性能考虑，需要节省对象创建时间等。 4、原型模式 Prototype模式是一种对象型创建模式，它采用复制原型对象的方法来创建对象的实例。使用Prototype模式创建的实例，具有与原型一样的数据。 特点：①由于原型对象自身创建目标对象。也就是说，对象创建这一动作发自原型对象本身。②目标对象是原型对象的一个克隆。也就是说，通过Prototype模式创建的对象， 不仅仅与原型对象具有相同结构，海域原型对象具有相同值。 ③根据对象克隆深度层次的不同，有前度克隆与深度克隆。 5、建造者模式 Builder模式，用来隐藏符合对象的创建过程，它把复合对象的创建过程加以抽象，通过子类继承和重载的方式，动态的创建具有复合属性的对象。 6、装饰模式 Decoraror又叫包装模式。通过一种对客户端透明的方式来扩展对象的功能，是继承关系的一个替换方案。 7、策略模式 Strategy模式是对一系列的算法加以封装，为所有算法定义一个抽象的算法接口，并通过继承改抽象算法接口对所有算法加以封装和实现，具体算法选择交由客户端决定。 8、观察者模式 Observer的作用是当一个对象发生变化时，能够自动通知其他关联对象，自动刷新对象状态。提供给关联对象一种同步通信的手段，使某个对象与依赖它的其他对象之间保持同步状态。 9、享元模式 Flyweight模式，他通过与其他类似对象共享数据来减小内存占用。 10、代理模式 Proxy可以为其他对象提供一种代理以控制这个对象的访问。所谓代理，是指具有与代理元（被代理对象）具有相同的接口的类，客户端必须通过代理与被代理的目标类交互，而代理一般在交互的过程中（交互前后），进行某些特别的处理。 11、外官模式 Facade为一组具有类似功能的类群，比如类库，子系统等等，提供一个一致的简单的见面。这个一致的简单界面被称作facade。 12、组合模式 Composite通过递归手段来构造树形的对象结构，并可以通过一个对象来访问整个对象树。 13、桥接模式 Bridge基于类的最香设计原则，通过使用封装，聚合以及集成等行为来让不同的类承担不同的责任。它的主要特点是把抽象与行为实现分离开来，从而可以保持各部分的独立性以及应对他们的功能扩展。 14、适配器模式 Adapter模式可以改变已有的类（或外部类）的接口形式。 15、解释器模式 Interpreter是一种特殊的设计模式，它建立一个解释器，对于特定的计算机程序设计语言，用来解释一线定义的文法。简单说，Interpreter是一种简单的语法解释器构架。 16、中介者模式 Mediator模式中，类之间的交互行为被统一放在Mediator的对象中，对象通过Mediator对象同其他的对象交互，Mediator对象起着控制器的作用。 17、责任链模式 Chain of Responsibility（CoR）模式构造一系列分担不同职责的类对象来共同完成一个任务，这些类的对象之间像链条一样紧密相连，所以被称作责任链。 18、迭代模式 Iterator模式把对容器中包含的内部对象的访问委让给外部类，使用Iterator按顺序进行遍历访问的设计模式。 19、模板方法模式 Template Method模式具有特定步骤算法中的某些必要的处理委让给抽象方法，通过子类继承对抽象方法的不同实现改变整个算法的行为。 20、备忘录模式 Memento模式的作用是保存对象内部状态，并在需要的时候回复对象以前的状态。 21、状态模式 State模式允许通过改变对象内部状态而改变对象的行为，这个对象变现得就好像修改了它的类一样。 22、命令模式 Command模式通过被称为Command的类封装了对目标对象的调用行为以及调用参数。 23、访问者模式 Visitor模式分离对象的数据和行为，使用Visitor模式，可以不修改已有的类的情况下，增加新的操作。]]></content>
+      <categories>
+        <category>设计模式</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>技术</tag>
+        <tag>学习</tag>
+        <tag>设计模式</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[线程池]]></title>
     <url>%2F2020%2F08%2F16%2F%E7%BA%BF%E7%A8%8B%E6%B1%A0%2F</url>
     <content type="text"><![CDATA[线程池线程池的概念及优点 线程池相关API 线程池优点 创建线程池代码实现 面试问题：创建多线程有几种方式？ 4种 extends Thread类； implements Runnable； implements Callable； 线程池。]]></content>
