@@ -10,7 +10,7 @@
       <tags>
         <tag>笔记</tag>
         <tag>技术</tag>
-        <tag>学习</tag>
+        <tag>学习 - 排序</tag>
       </tags>
   </entry>
   <entry>
@@ -18,13 +18,13 @@
     <url>%2F2020%2F08%2F16%2FMySQL%E5%9B%BE%E8%A7%A3%E5%8A%9F%E8%83%BD%E5%88%86%E7%B1%BB%2F</url>
     <content type="text"><![CDATA[MySQL图解功能分类]]></content>
       <categories>
-        <category>MySQL</category>
         <category>数据库</category>
       </categories>
       <tags>
         <tag>笔记</tag>
         <tag>技术</tag>
         <tag>学习</tag>
+        <tag>MySQL</tag>
       </tags>
   </entry>
   <entry>
@@ -32,13 +32,13 @@
     <url>%2F2020%2F08%2F16%2FMySQL%E4%BF%AE%E6%94%B9%E5%88%A0%E9%99%A4%E4%B8%8E%E4%BD%BF%E7%94%A8%E8%AF%AD%E5%8F%A5%2F</url>
     <content type="text"><![CDATA[MySQL修改删除与使用语句]]></content>
       <categories>
-        <category>MySQL</category>
         <category>数据库</category>
       </categories>
       <tags>
         <tag>笔记</tag>
         <tag>技术</tag>
         <tag>学习</tag>
+        <tag>MySQL</tag>
       </tags>
   </entry>
   <entry>
@@ -46,13 +46,13 @@
     <url>%2F2020%2F08%2F16%2FMySQL%E5%88%9B%E5%BB%BA%E4%B8%8E%E6%9F%A5%E8%AF%A2%E8%AF%AD%E5%8F%A5%2F</url>
     <content type="text"><![CDATA[MySQL创建与查询语句]]></content>
       <categories>
-        <category>MySQL</category>
         <category>数据库</category>
       </categories>
       <tags>
         <tag>笔记</tag>
         <tag>技术</tag>
         <tag>学习</tag>
+        <tag>MySQL</tag>
       </tags>
   </entry>
   <entry>
@@ -60,13 +60,13 @@
     <url>%2F2020%2F08%2F16%2FMySQL%E8%AF%AD%E5%8F%A5%E5%88%86%E7%B1%BB%2F</url>
     <content type="text"><![CDATA[MySQL语句分类]]></content>
       <categories>
-        <category>MySQL</category>
         <category>数据库</category>
       </categories>
       <tags>
         <tag>笔记</tag>
         <tag>技术</tag>
         <tag>学习</tag>
+        <tag>MySQL</tag>
       </tags>
   </entry>
   <entry>
@@ -80,6 +80,7 @@
         <tag>笔记</tag>
         <tag>技术</tag>
         <tag>学习</tag>
+        <tag>MySQL</tag>
       </tags>
   </entry>
   <entry>
@@ -87,13 +88,13 @@
     <url>%2F2020%2F08%2F16%2FMySQL%E5%AE%89%E8%A3%85%E9%85%8D%E7%BD%AE%2F</url>
     <content type="text"><![CDATA[MySQL安装配置]]></content>
       <categories>
-        <category>MySQL</category>
         <category>数据库</category>
       </categories>
       <tags>
         <tag>笔记</tag>
         <tag>技术</tag>
         <tag>学习</tag>
+        <tag>MySQL</tag>
       </tags>
   </entry>
   <entry>
@@ -101,12 +102,13 @@
     <url>%2F2020%2F08%2F16%2F%E5%AF%B9%E4%BA%8EJava%E7%9A%84GC%E5%93%AA%E4%BA%9B%E5%86%85%E5%AD%98%E9%9C%80%E8%A6%81%E5%9B%9E%E6%94%B6%2F</url>
     <content type="text"><![CDATA[对于Java的GC哪些内存需要回收 内存运行时 JVM 会有一个运行时数据区来管理内存。它主要包括 5 大部分：程序计数器(Program Counter Register)、虚拟机栈(VM Stack)、本地方法栈(Native Method Stack)、方法区(Method Area)、堆(Heap). 而其中程序计数器、虚拟机栈、本地方法栈是每个线程私有的内存空间，随线程而生，随线程而亡。例如栈中每一个栈帧中分配多少内存基本上在类结构确定是哪个时就已知了，因此这 3 个区域的内存分配和回收都是确定的，无需考虑内存回收的问题。 但方法区和堆就不同了，一个接口的多个实现类需要的内存可能不一样，我们只有在程序运行期间才会知道会创建哪些对象，这部分内存的分配和回收都是动态的，GC主要关注的是这部分内存。 总而言之，GC 主要进行回收的内存是JVM中的方法区和堆。]]></content>
       <categories>
-        <category>JVM</category>
+        <category>Java</category>
       </categories>
       <tags>
         <tag>笔记</tag>
         <tag>技术</tag>
         <tag>学习</tag>
+        <tag>JVM</tag>
       </tags>
   </entry>
   <entry>
@@ -114,12 +116,13 @@
     <url>%2F2020%2F08%2F16%2FGC%E4%BB%80%E4%B9%88%E6%97%B6%E5%80%99%E5%9B%9E%E6%94%B6%E5%9E%83%E5%9C%BE%2F</url>
     <content type="text"><![CDATA[GC什么时候回收垃圾 关于方法区中需要回收的是一些废弃的常量和无用的类。 废弃的常量的回收。这里看引用计数就可以了。没有对象引用该常量就可以放心的回收了。 无用的类的回收。 什么是无用的类呢？ 该类所有的实例都已经被回收。也就是Java堆中不存在该类的任何实例； 加载该类的ClassLoader已经被回收； 该类对应的java.lang.Class对象没有任何地方被引用，无法在任何地方通过反射访问该类的方法。 结论 对于堆中的对象，主要用可达性分析判断一个对象是否还存在引用，如果该对象没有任何引用就应该被回收。而根据我们实际对引用的不同需求，又分成了4中引用，每种引用的回收机制也是不同的。 对于方法区中的常量和类，当一个常量没有任何对象引用它，它就可以被回收了。而对于类，如果可以判定它为无用类，就可以被回收了。]]></content>
       <categories>
-        <category>JVM</category>
+        <category>Java</category>
       </categories>
       <tags>
         <tag>笔记</tag>
         <tag>技术</tag>
         <tag>学习</tag>
+        <tag>JVM</tag>
       </tags>
   </entry>
   <entry>
@@ -133,6 +136,7 @@
         <tag>笔记</tag>
         <tag>技术</tag>
         <tag>学习</tag>
+        <tag>集合</tag>
       </tags>
   </entry>
   <entry>
@@ -159,6 +163,7 @@
         <tag>笔记</tag>
         <tag>技术</tag>
         <tag>学习</tag>
+        <tag>MySQL</tag>
       </tags>
   </entry>
   <entry>
